@@ -89,7 +89,7 @@ def write_raster(file, data, ds):
     """
     driver = gdal.GetDriverByName('GTiff')  # 明确写入数据驱动类型
     out_ds = driver.Create(
-        dest_folder + os.sep + file,  # tif文件所保存的路径
+        file,  # tif文件所保存的路径
         ds.RasterXSize,  # 行
         ds.RasterYSize,  # 列
         ds.RasterCount,  # 波段数

@@ -9,7 +9,7 @@ import os, rasterio
 import numpy as np
 from rasterio.windows import get_data_window
 
-f_raster = r'D:\f_work\H_九江学院\学生培养\A1651\fanweijiexian_Z\fanweijiexian\sjy250m_dem.tif'
+f_raster = r'D:\JJU\学生培养\A1651\fanweijiexian_Z\fanweijiexian\sjy250m_dem.tif'
 # raster data with 5231 columns and 3201 rows
 dat = []
 idx = []
